@@ -3,7 +3,7 @@ import React from "react";
 type Props = {};
 
 const page = ({}: Props) => {
-  return <div>page</div>;
+  return <a href="/api/auth/login">Login</a>;
 };
 
 export default page;
